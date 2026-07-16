@@ -1,0 +1,27 @@
+{
+  "name": "suno-lyric-video",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "build:lyrics": "node scripts/build-lyrics.mjs",
+    "predev": "npm run build:lyrics",
+    "dev": "remotion preview src/index.tsx --port 3000",
+    "prestart": "npm run build:lyrics",
+    "start": "remotion preview src/index.tsx --port 3000",
+    "prerender": "npm run build:lyrics",
+    "render": "remotion render src/index.tsx LyricVideo out/lyric-video.mp4",
+    "prestill": "npm run build:lyrics",
+    "still": "remotion still src/index.tsx LyricVideo out/preview.png --frame=1500"
+  },
+  "dependencies": {
+    "@remotion/cli": "^4.0.0",
+    "remotion": "^4.0.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.12",
+    "@types/react-dom": "^18.3.1",
+    "typescript": "^5.6.3"
+  }
+}
