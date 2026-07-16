@@ -1,0 +1,8 @@
+interface:
+  display_name: "Suno Lyric Video"
+  short_description: "Build a polished lyric video from Suno MP3 and SRT."
+  default_prompt: "Use $suno-lyric-video to create a mood-matched album cover and Remotion lyric video from the MP3 and SRT in this project."
+
+policy:
+  allow_implicit_invocation: false
+
