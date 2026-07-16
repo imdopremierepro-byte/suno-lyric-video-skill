@@ -2,8 +2,6 @@
 
 MP3 and SRT files become a complete Remotion lyric video with a newly generated album cover.
 
-![Lyric video preview](plugins/suno-lyric-video/assets/preview.png)
-
 ## Install
 
 Add this GitHub repository as a Codex plugin marketplace:
