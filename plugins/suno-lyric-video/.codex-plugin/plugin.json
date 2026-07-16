@@ -1,0 +1,28 @@
+{
+  "name": "suno-lyric-video",
+  "version": "0.1.0",
+  "description": "Create a polished Remotion lyric video and mood-matched album cover from a Suno MP3 and SRT file.",
+  "author": {
+    "name": "Dohyun",
+    "url": "https://github.com/imdopremierepro-byte"
+  },
+  "homepage": "https://github.com/imdopremierepro-byte/suno-lyric-video-skill",
+  "repository": "https://github.com/imdopremierepro-byte/suno-lyric-video-skill",
+  "license": "MIT",
+  "keywords": ["suno", "lyrics", "remotion", "video", "album-cover"],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Suno Lyric Video",
+    "shortDescription": "Turn a Suno MP3 and SRT into a polished lyric video.",
+    "longDescription": "Analyzes lyrics, generates a mood-matched album cover, builds a synchronized Remotion lyric video, validates representative frames, and starts a local preview.",
+    "developerName": "Dohyun",
+    "category": "Productivity",
+    "capabilities": ["Write"],
+    "websiteURL": "https://github.com/imdopremierepro-byte/suno-lyric-video-skill",
+    "defaultPrompt": [
+      "Create a lyric video from the MP3 and SRT in this project.",
+      "Generate a matching album cover and render my lyric video."
+    ],
+    "brandColor": "#69C9EA"
+  }
+}
